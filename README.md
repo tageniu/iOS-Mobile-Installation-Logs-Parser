@@ -29,10 +29,7 @@ input order. Bundle identifiers include extensions and containers, so these
 counts do not necessarily represent standalone apps or a full device inventory.
 Newer log messages outside those original rules are not extracted.
 
-Validation compared database rows and report bytes against the original Python
-script, using the two supplied logs separately and together, bundled legacy
-logs, and synthetic events. All six test methods passed, including checks for
-empty input, overwrite protection, and invalid events.
+## Python version
 
 ![alt text](/images/mib_done.PNG "Usage example")
 
